@@ -1,0 +1,31 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333333;
+}
+
+#canvas{
+    background-image: repeating-linear-gradient(#2D2D2D 0.5%, #3B3B3B 1%);
+    width: 1530;
+    height: 750;
+    object-fit: contain;
+}
+
+#gameover{
+    visibility: hidden;
+    position: absolute;
+    background-color: black;
+    width: 40vw;
+    margin-left: 30vw;
+    padding-top: 20vh;
+    margin-top: 20vh;
+    height: 50vh;
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+}
